@@ -23,7 +23,6 @@ public class Doctor extends User {
     private String specialityDescription;
     @ManyToOne
     private TypeService typeService;
-    @OneToMany(mappedBy = "doctor")
+    @ManyToOne()
     private Order order;
-
 }

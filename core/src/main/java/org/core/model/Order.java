@@ -6,7 +6,6 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
@@ -27,6 +26,7 @@ public class Order {
     private TypeService typeService;
     @ManyToOne
     private Doctor doctor;
+    @Column(name = "local_date_time_of_appointment")
     private LocalDateTime localDateTimeOfAppointment;
     @OneToMany
     private List<OrderStatus> statusList = new ArrayList<>();

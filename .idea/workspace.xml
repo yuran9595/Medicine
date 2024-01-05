@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d27126a-8f19-455e-85c0-6540582f91d1" name="Changes" comment="" />
+    <list default="true" id="2d27126a-8f19-455e-85c0-6540582f91d1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/core/model/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/core/model/Doctor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/core/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/core/model/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/core/model/OrderStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/core/model/OrderStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/core/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/core/repositories/UserRepository.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +26,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/client-front/front" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />

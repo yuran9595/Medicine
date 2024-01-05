@@ -21,6 +21,8 @@ public class OrderStatus {
     private Long id;
     @ManyToOne
     private Order order;
+    @Column(name = "date_and_time_of_creation")
     private LocalDateTime dateAndTimeOfCreation;
+    @Enumerated(EnumType.STRING)
     private TypeStatus typeStatus;
 }
