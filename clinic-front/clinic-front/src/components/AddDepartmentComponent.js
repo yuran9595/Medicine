@@ -10,6 +10,7 @@ const AddDepartmentComponent = () => {
 
     const [departmentName, setDepartmentName] = useState("");
     const [description, setDescription] = useState("");
+    const [file, setFile] = useState();
     const URL = "http://localhost:8082/api/v1/admin/addDepartment";
 
 
@@ -18,10 +19,12 @@ const AddDepartmentComponent = () => {
         
         axios.post(URL, {
             name: departmentName,
-            description: description
+            description: description,
+            file: file
         }, 
         {headers: {
-            "Authorization": "Bearer " + localStorage.getItem("token")
+            "Authorization": "Bearer " + localStorage.getItem("token"),
+            "content-type": "multipart/form-data"
         }})
         .then(response => console.log(response))
         .catch(error => console.error(error))
@@ -47,6 +50,17 @@ const AddDepartmentComponent = () => {
                 autoFocus
                 value={description}
                 onChange={(e) => setDescription(e.target.value)} // Обработчик изменения значения
+              />
+            </Form.Group>
+
+            <Form.Group className="mb-3" controlId="exampleForm.ControlInput2">
+              <Form.Label>Image</Form.Label>
+              <Form.Control
+                type="file"
+                placeholder="File"
+                autoFocus
+                value={file}
+                onChange={(e) => setFile(e.target.value)} // Обработчик изменения значения
               />
             </Form.Group>
             <Button onClick={handleSubmit}>

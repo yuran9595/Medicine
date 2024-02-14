@@ -1,16 +1,15 @@
 package org.core.services;
 
 import lombok.RequiredArgsConstructor;
-import org.core.converter.DepartmentDtoToDepartmentConverter;
-import org.core.converter.DepartmentToDepartmentDtoConverter;
-import org.core.converter.TypeServiceDtoToTypeServiceConverter;
-import org.core.converter.TypeServiceToTypeServiceDtoConverter;
+import org.core.converter.*;
 import org.core.dtos.DepartmentDto;
+import org.core.dtos.DoctorDto;
 import org.core.dtos.TypeServiceDto;
 import org.core.model.Department;
 import org.core.model.Doctor;
 import org.core.model.TypeService;
 import org.core.repositories.DepartmentRepository;
+import org.core.repositories.DoctorRepository;
 import org.core.repositories.TypeServiceRepository;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
@@ -26,6 +25,8 @@ public class AdminService {
     private final TypeServiceDtoToTypeServiceConverter typeServiceDtoToTypeService;
     private final TypeServiceToTypeServiceDtoConverter typeServiceToTypeServiceDtoConverter;
     private final TypeServiceRepository typeServiceRepository;
+    private final DoctorDtoToDoctorConverter doctorDtoToDoctorConverter;
+    private final DoctorRepository doctorRepository;
 
     public ResponseEntity<DepartmentDto> addDepartment(DepartmentDto departmentDto) {
         Department department = departmentDtoToDepartmentConverter.convert(departmentDto);
@@ -43,8 +44,11 @@ public class AdminService {
 
     }
 
-    public ResponseEntity<Doctor> addDoctor(Doctor doctor) {
-        System.out.println();
-        return null;
+    public void addDoctor(DoctorDto doctorDto) {
+        Doctor doctor = doctorDtoToDoctorConverter.convert(doctorDto);
+        TypeService typeService = typeServiceRepository.findById(doctorDto.getTypeServiceId()).orElse(null);
+        doctor.setTypeService(typeService);
+        typeService.getDoctors().add(doctor);
+        doctorRepository.save(doctor);
     }
 }
