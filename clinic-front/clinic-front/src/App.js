@@ -9,6 +9,10 @@ import { useContext, useState } from "react";
 import FooterComponent from "./components/FooterComponent";
 import AboutUsComponent from "./components/AboutUsComponent";
 import DepartmentDetails from "./components/DepartmentDetails";
+import AdminComponent from "./components/AdminComponent";
+import AddDepartmentComponent from "./components/AddDepartmentComponent";
+import AddCategoryComponent from "./components/AddCategoryComponent";
+import AddDoctorComponent from "./components/AddDoctorComponent";
 
 function App() {
 
@@ -22,6 +26,10 @@ function App() {
         <Route element={<PricingComponent/>} exact path = '/pricing'></Route>
         <Route element={<AboutUsComponent/>} exact path='/aboutUs'></Route>
         <Route element={<DepartmentDetails/>} exact path='/department/:id'></Route>
+        <Route element={<AdminComponent/>} exact path = "/admin"></Route>
+        <Route element={<AddDepartmentComponent/>} exact path="/addDepartment"></Route>
+        <Route element={<AddCategoryComponent/>} exact path="/addCategory"></Route>
+        <Route element={<AddDoctorComponent/>} exact path="/addDoctor"></Route>
       </Routes>
       <FooterComponent/>
     </BrowserRouter>

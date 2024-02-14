@@ -28,6 +28,7 @@ public class UserConnectionService {
                     return userConnectionDto;
                 })
                 .collect(Collectors.toList());
+
         return collect;
     }
 }

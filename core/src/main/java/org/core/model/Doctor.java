@@ -6,6 +6,9 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @Entity
 @Getter
 @Setter
@@ -23,6 +26,6 @@ public class Doctor extends User {
     private String specialityDescription;
     @ManyToOne
     private TypeService typeService;
-    @ManyToOne()
-    private Order order;
+    @OneToMany(mappedBy = "doctor")
+    private List<Order> orders = new ArrayList<>();
 }

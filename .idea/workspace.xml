@@ -4,12 +4,54 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d27126a-8f19-455e-85c0-6540582f91d1" name="Changes" comment="">
+    <list default="true" id="2d27126a-8f19-455e-85c0-6540582f91d1" name="Changes" comment="Fixed Entity error">
+      <change afterPath="$PROJECT_DIR$/clinic-front/clinic-front/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinic-front/clinic-front/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinic-front/clinic-front/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinic-front/clinic-front/src/asserts/TerapDepart.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinic-front/clinic-front/src/asserts/clinic1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinic-front/clinic-front/src/asserts/clinic2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinic-front/clinic-front/src/asserts/clinic3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinic-front/clinic-front/src/asserts/clinic4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinic-front/clinic-front/src/asserts/laboratory.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinic-front/clinic-front/src/asserts/operationDepart.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinic-front/clinic-front/src/asserts/teethDepart.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinic-front/clinic-front/src/components/AboutUsComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinic-front/clinic-front/src/components/DepartmentDetails.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinic-front/clinic-front/src/components/DepartmentsComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinic-front/clinic-front/src/components/FooterComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinic-front/clinic-front/src/components/HomeComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinic-front/clinic-front/src/components/MyNavBar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinic-front/clinic-front/src/components/MyNavBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinic-front/clinic-front/src/components/PricingComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinic-front/clinic-front/src/components/SliderComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinic-front/clinic-front/src/context/AuthContext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinic-front/clinic-front/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinic-front/clinic-front/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinic-front/clinic-front/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/org/core/controllers/TypeServiceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/org/core/converter/DepartmentDtoToDepartmentConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/org/core/converter/DepartmentToDepartmentDtoConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/org/core/converter/TypeServiceDtoToTypeServiceConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/org/core/converter/TypeServiceToTypeServiceDtoConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/org/core/dtos/DepartmentDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/org/core/dtos/TypeServiceDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/org/core/repositories/TypeServiceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/org/core/services/AdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/org/core/services/TypeServiceService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-front/front/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client-front/front/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-front/front/src/components/DepartmentsComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/client-front/front/src/components/DepartmentsComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/core/config/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/core/config/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/core/controllers/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/core/controllers/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/core/controllers/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/core/controllers/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/core/controllers/DepartmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/core/controllers/DepartmentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/core/model/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/core/model/Department.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/org/core/model/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/core/model/Doctor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/core/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/core/model/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/core/model/OrderStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/core/model/OrderStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/core/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/core/repositories/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/core/services/DepartmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/core/services/DepartmentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/core/services/TestFunctionInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/core/services/UserConnectionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/core/services/UserConnectionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/core/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/core/services/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,9 +61,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -44,29 +86,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "/Users/yury.rakala/Desktop/Java_NEW/Medicine/client/src/main/resources",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.41231593",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/yury.rakala/Desktop/Java_NEW/Medicine/clinic-front/clinic-front/src&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.41231593&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.core.services" />
+      <recent name="org.core.repositories" />
+      <recent name="org.core.dtos" />
       <recent name="org.core.enums" />
       <recent name="org.core.controllers" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/clinic-front/clinic-front/src" />
       <recent name="$PROJECT_DIR$/client/src/main/resources" />
       <recent name="$PROJECT_DIR$/clinic/src/main/resources" />
       <recent name="$PROJECT_DIR$/clinic" />
       <recent name="$PROJECT_DIR$/clinic/src/main/java/org/clinic" />
-      <recent name="$PROJECT_DIR$/client/src/main/java/org/client" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/core" />
@@ -146,6 +191,14 @@
       <option name="presentableId" value="Default" />
       <updated>1701877873144</updated>
     </task>
+    <task id="LOCAL-00001" summary="Fixed Entity error">
+      <created>1704470255555</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1704470255555</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -166,6 +219,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/client-front/front" />
     </ignored-roots>
+    <MESSAGE value="Fixed Entity error" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed Entity error" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -179,6 +234,11 @@
           <url>file://$PROJECT_DIR$/clinic/src/main/java/controllers/UserController.java</url>
           <line>19</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/org/core/controllers/AdminController.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
