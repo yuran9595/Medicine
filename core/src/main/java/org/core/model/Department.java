@@ -23,4 +23,6 @@ public class Department {
     private String description;
     @OneToMany(mappedBy = "department")
     private List<TypeService> typeServices = new ArrayList<>();
+    @OneToMany(mappedBy = "department",cascade = CascadeType.ALL)
+    private List<Image> images = new ArrayList<>();
 }

@@ -29,7 +29,7 @@ public class AuthenticationService {
         String jwtToken = jwtService.generateToken(user);
         return AuthenticationResponseDTO.builder()
                 .token(jwtToken)
-                .build();
+                .build(); // для регистрации??
     }
 
     public AuthenticationResponseDTO authenticate(AuthenticationRequestDTO request) {

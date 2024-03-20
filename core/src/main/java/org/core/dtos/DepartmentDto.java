@@ -16,5 +16,6 @@ public class DepartmentDto {
     private Long id;
     private String name;
     private String description;
+    private Long imageId;
     private List<TypeServiceDto> typeServices = new ArrayList<>();
 }

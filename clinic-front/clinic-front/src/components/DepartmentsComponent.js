@@ -4,6 +4,7 @@ import lab from "../asserts/laboratory.jpg";
 import oper from "../asserts/operationDepart.jpg";
 import teeth from "../asserts/teethDepart.jpg";
 import axios from "axios";
+import MyImageIdConponent from "./MyImageIdComponent";
 
 const DepartmentsComponent = () => {
   const PATH = "http://localhost:8082/api/v1/public/departments";
@@ -41,7 +42,7 @@ const DepartmentsComponent = () => {
             departments.map(department => 
             <Col sm={4} key={department.id}> 
             <Card style={{ width: "18rem" }} className="me-5">
-            <Card.Img variant="top" src={images[1]} />
+            <MyImageIdConponent imageId = {department.imageId} />
             <Card.Body>
               <Card.Title>{department.name}</Card.Title>
               <Card.Text>{department.description}</Card.Text>

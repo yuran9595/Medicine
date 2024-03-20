@@ -41,9 +41,8 @@ const AddCategoryComponent = () => {
     axios
       .get(PATH_GET_DEPARTMENTS)
       .then((res) => {
-        console.log(res.data);
         setDepartments(res.data);
-        console.log(departments);
+        setDepartmentId(res.data[0].id);
       })
       .catch((err) => {
         console.log(err);
@@ -65,7 +64,7 @@ const AddCategoryComponent = () => {
         </Form.Select>
       </Form.Group>
       <Form.Group className="mb-3" controlId="exampleForm.ControlInput2">
-        <Form.Label>Name Category</Form.Label>
+        <Form.Label>Name Type Service</Form.Label>
         <Form.Control
           type="text"
           placeholder="Name"

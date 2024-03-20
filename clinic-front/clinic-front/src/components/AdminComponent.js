@@ -9,7 +9,7 @@ const AdminComponent = () => {
             <h2>Add Department</h2>
           </Nav.Link>
           <Nav.Link href="/addCategory">
-            <h2>Add Category</h2>
+            <h2>Add Type Service</h2>
           </Nav.Link>
           <Nav.Link href="/addDoctor">
             <h2>Add Doctor</h2>

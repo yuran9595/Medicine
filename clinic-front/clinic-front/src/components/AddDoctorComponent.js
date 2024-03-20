@@ -38,7 +38,7 @@ const AddDoctorComponent = () => {
         }
       )
       .then((response) => console.log(response))
-      .catch((error) => console.error(error));
+      .catch((error) => alert(error.response.data));
   };
 
   const handleChange = (event) => {
@@ -51,6 +51,7 @@ const AddDoctorComponent = () => {
       .then((res) => {
         console.log(res.data);
         setCategories(res.data);
+        setTypeServiceId(res.data[0].id);
       })
       .catch((err) => {
         console.log(err);

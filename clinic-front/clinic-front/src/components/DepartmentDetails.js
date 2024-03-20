@@ -45,7 +45,7 @@ const DepartmentDetails = () => {
             <td>{typeService.id}</td>
             <td>{typeService.name}</td>
             <td>{typeService.description}</td>
-            <td><Button href="">Get list</Button></td>
+            <td><Button href="/getDoctorList">Get list</Button></td>
           </tr>
         ))}
       </tbody>

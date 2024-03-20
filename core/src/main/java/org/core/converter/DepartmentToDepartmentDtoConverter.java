@@ -8,6 +8,10 @@ import org.springframework.stereotype.Component;
 public class DepartmentToDepartmentDtoConverter extends Converter<Department, DepartmentDto> {
     @Override
     public DepartmentDto convert(Department department) {
-        return super.modelMapper.map(department, DepartmentDto.class);
+        DepartmentDto map = super.modelMapper.map(department, DepartmentDto.class);
+        if (department.getImages().size()!=0){
+            map.setImageId(department.getImages().get(0).getId());
+        }
+        return map;
     }
 }

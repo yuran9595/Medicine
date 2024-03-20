@@ -16,6 +16,7 @@ const AddDepartmentComponent = () => {
 
     const handleSubmit = async (event) => {
         event.preventDefault();
+        console.log(file);
         
         axios.post(URL, {
             name: departmentName,
@@ -23,8 +24,8 @@ const AddDepartmentComponent = () => {
             file: file
         }, 
         {headers: {
-            "Authorization": "Bearer " + localStorage.getItem("token"),
-            "content-type": "multipart/form-data"
+          'content-type': 'multipart/form-data',
+          'Authorization': `Bearer ${localStorage.getItem("token")}`
         }})
         .then(response => console.log(response))
         .catch(error => console.error(error))
@@ -57,10 +58,10 @@ const AddDepartmentComponent = () => {
               <Form.Label>Image</Form.Label>
               <Form.Control
                 type="file"
-                placeholder="File"
+                placeholder="Image"
                 autoFocus
-                value={file}
-                onChange={(e) => setFile(e.target.value)} // Обработчик изменения значения
+                //value={file}
+                onChange={(e) => setFile(e.target.files[0])} // Обработчик изменения значения
               />
             </Form.Group>
             <Button onClick={handleSubmit}>

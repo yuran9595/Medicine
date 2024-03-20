@@ -4,16 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d27126a-8f19-455e-85c0-6540582f91d1" name="Changes" comment="Working on front + new controllers">
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/org/core/converter/DoctorDtoToDoctorConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/org/core/dtos/DoctorDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/org/core/repositories/DoctorRepository.java" afterDir="false" />
+    <list default="true" id="2d27126a-8f19-455e-85c0-6540582f91d1" name="Changes" comment="Front improvements">
+      <change afterPath="$PROJECT_DIR$/clinic-front/clinic-front/src/asserts/newFile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/org/core/controllers/DoctorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/org/core/controllers/ImageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/org/core/converter/DoctorToDoctorDtoTransformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/org/core/converter/MultipartFileToImageConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/org/core/model/Image.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/org/core/repositories/ImageRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/org/core/services/DoctorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clinic-front/clinic-front/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/clinic-front/clinic-front/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinic-front/clinic-front/src/components/AddCategoryComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/clinic-front/clinic-front/src/components/AddCategoryComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clinic-front/clinic-front/src/components/AddDepartmentComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/clinic-front/clinic-front/src/components/AddDepartmentComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clinic-front/clinic-front/src/components/AddDoctorComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/clinic-front/clinic-front/src/components/AddDoctorComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinic-front/clinic-front/src/components/AdminComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/clinic-front/clinic-front/src/components/AdminComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinic-front/clinic-front/src/components/DepartmentDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/clinic-front/clinic-front/src/components/DepartmentDetails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinic-front/clinic-front/src/components/DepartmentsComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/clinic-front/clinic-front/src/components/DepartmentsComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinic-front/clinic-front/src/components/MyNavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/clinic-front/clinic-front/src/components/MyNavBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/core/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/core/config/SecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/org/core/controllers/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/core/controllers/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/core/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/core/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/core/converter/DepartmentToDepartmentDtoConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/core/converter/DepartmentToDepartmentDtoConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/core/dtos/DepartmentDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/core/dtos/DepartmentDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/core/dtos/DoctorDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/core/dtos/DoctorDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/core/dtos/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/core/dtos/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/core/model/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/core/model/Department.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/org/core/services/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/core/services/AdminService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/core/services/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/core/services/AuthenticationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/core/services/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/core/services/JwtService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/core/utils/JwtTokenUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +48,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -53,11 +77,11 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/yury.rakala/Desktop/Java_NEW/Medicine/clinic-front/clinic-front/src&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/yuryrakala/IdeaProjects/Medicine&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.41231593&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -197,30 +221,21 @@
     </ignored-roots>
     <MESSAGE value="Fixed Entity error" />
     <MESSAGE value="Working on front + new controllers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working on front + new controllers" />
+    <MESSAGE value="Front improvements" />
+    <option name="LAST_COMMIT_MESSAGE" value="Front improvements" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/clinic/src/main/java/org/clinic/controllers/UserController.java</url>
           <line>17</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/clinic/src/main/java/controllers/UserController.java</url>
           <line>19</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/core/src/main/java/org/core/services/AdminService.java</url>
-          <line>51</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/core/src/main/java/org/core/controllers/AdminController.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

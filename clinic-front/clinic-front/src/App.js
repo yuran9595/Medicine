@@ -13,6 +13,7 @@ import AdminComponent from "./components/AdminComponent";
 import AddDepartmentComponent from "./components/AddDepartmentComponent";
 import AddCategoryComponent from "./components/AddCategoryComponent";
 import AddDoctorComponent from "./components/AddDoctorComponent";
+import GetDoctorListComponent from "./components/GetDoctorListComponent";
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
         <Route element={<AddDepartmentComponent/>} exact path="/addDepartment"></Route>
         <Route element={<AddCategoryComponent/>} exact path="/addCategory"></Route>
         <Route element={<AddDoctorComponent/>} exact path="/addDoctor"></Route>
+        <Route element={<GetDoctorListComponent/>} exact path="/getDoctorList"></Route>
       </Routes>
       <FooterComponent/>
     </BrowserRouter>

@@ -16,9 +16,5 @@ import java.util.List;
 public class UserController {
     private final UserConnectionService userConnectionService;
 
-//    @GetMapping("/getConnections/{userId}")
-//    public ResponseEntity<?> getUserConnections(@PathVariable Long userId){
-//        List<UserConnection> connections = userConnectionService.getConnections(userId);
-//        return new ResponseEntity<>(connections, HttpStatus.OK);
-//    }
+
 }
